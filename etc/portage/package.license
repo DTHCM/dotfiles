@@ -1,0 +1,6 @@
+app-arch/unrar unRAR
+app-office/wps-office WPS-EULA
+media-fonts/ttf-wps-fonts as-is
+sys-firmware/intel-microcode intel-ucode
+sys-kernel/linux-firmware linux-fw-redistributable no-source-code
+x11-drivers/nvidia-drivers NVIDIA-r2

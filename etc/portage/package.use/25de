@@ -1,0 +1,36 @@
+media-libs/libsdl2 gles2
+
+app-i18n/fcitx-configtool config-qt kcm
+kde-plasma/plasma-desktop emoji
+kde-plasma/plasma-meta colord
+dev-qt/qtprintsupport cups
+
+# required by kde-plasma/plasma-meta-5.25.5::gentoo
+# required by plasma-meta (argument)
+#
+# kde-plasma/kwin lock
+
+# required by kde-frameworks/plasma-5.99.0::gentoo
+# required by kde-plasma/kdeplasma-addons-5.25.5::gentoo
+# required by kde-plasma/plasma-meta-5.25.5::gentoo
+# required by plasma-meta (argument)
+#
+# kde-frameworks/kconfig qml
+# required by kde-plasma/plasma-systemmonitor-5.25.5::gentoo
+# required by kde-plasma/plasma-meta-5.25.5::gentoo
+# required by plasma-meta (argument)
+# kde-frameworks/kitemmodels qml
+# required by kde-plasma/xdg-desktop-portal-kde-5.25.5::gentoo
+# required by kde-plasma/plasma-meta-5.25.5::gentoo[desktop-portal]
+# required by plasma-meta (argument)
+# dev-qt/qtprintsupport cups
+# required by kde-plasma/plasma-workspace-5.25.5-r5::gentoo
+# required by kde-plasma/kdeplasma-addons-5.25.5::gentoo
+# required by kde-plasma/plasma-meta-5.25.5::gentoo
+# required by plasma-meta (argument)
+# kde-frameworks/prison qml
+# required by kde-frameworks/qqc2-desktop-style-5.99.0::gentoo
+# required by kde-plasma/plasma-desktop-5.25.5-r2::gentoo
+# required by kde-plasma/plasma-meta-5.25.5::gentoo
+# required by plasma-meta (argument)
+# kde-frameworks/sonnet qml
