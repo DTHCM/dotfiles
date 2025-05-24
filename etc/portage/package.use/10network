@@ -1,4 +1,0 @@
-sys-apps/openrc -netifrc 
-
-net-misc/networkmanager -modemmanager -bluetooth iwd -ppp
-

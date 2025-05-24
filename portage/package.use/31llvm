@@ -1,0 +1,7 @@
+# move sys-devel/clang-common llvm-core/clang-common
+llvm-core/clang-common default-compiler-rt default-lld
+
+
+sys-libs/libunwind static-libs
+sys-libs/zlib static-libs
+

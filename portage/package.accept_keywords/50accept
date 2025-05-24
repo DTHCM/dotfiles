@@ -1,0 +1,11 @@
+media-video/obs-studio
+dev-embedded/stlink
+
+media-libs/zmusic
+games-fps/gzdoom
+
+x11-drivers/nvidia-drivers
+gui-libs/egl-x11
+gui-libs/eglexternalplatform
+
+ x11-drivers/OpenTabletDriver ~amd64

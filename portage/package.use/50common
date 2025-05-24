@@ -1,0 +1,50 @@
+dev-lang/rust-bin rust-analyzer rustfmt clippy rust-src
+# sys-devel/gcc jit
+
+sys-auth/elogind debug
+
+app-text/ghostscript-gpl cups
+
+app-admin/sudo offensive
+
+app-arch/unzip natspec
+
+sys-fs/dosfstools compat
+
+media-libs/freetype brotli
+media-video/ffmpeg vpx theora
+
+
+app-emulation/qemu gtk sdl ncurses udev usb nfs QEMU_SOFTMMU_TARGETS: x86_64 i386 aarch64 arm riscv64 loongarch64 QEMU_USER_TARGETS: x86_64 i386 arm aarch64 riscv64 loongarch64
+
+media-video/ffmpeg vaapi vdpau webp x264 x265 libdrm opus
+
+sys-libs/zlib minizip
+media-video/vlc x264 x265 vdpau mp3 flac ogg skins lua jpeg png xml truetype mpeg matroska kate libtiger aribsub libass libcaca taglib aom fontconfig archive live
+
+dev-embedded/sdcc mcs51 non-free device-lib packihx
+dev-debug/gdb multitarget source-highlight
+
+app-editors/emacs  -alsa
+app-text/highlight -qt5
+
+media-sound/audacity ffmpeg
+
+dev-libs/libpcre2 pcre32
+
+kde-apps/okular pdf djvu epub -handbook markdown mobi
+
+media-video/obs-studio v4l
+
+dev-qt/qttools  designer
+# required by kde-plasma/xdg-desktop-portal-kde-6.1.4::gentoo
+# required by kde-plasma/plasma-integration-6.1.4::gentoo
+# required by kde-plasma/plasma-workspace-6.1.4-r1::gentoo
+# required by kde-plasma/plasma-desktop-6.1.4::gentoo
+# required by kde-plasma/plasma-meta-6.1.4-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtbase-6.7.2-r4 cups
+
+dev-libs/libinput input_devices_wacom
+net-libs/nodejs npm

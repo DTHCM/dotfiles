@@ -1,0 +1,30 @@
+{
+  "inlayHint.display": false,
+  "clangd.arguments": ["--header-insertion=never",
+    "--compile-commands-dir=.:./build",
+    "--query-driver=/home/dthcm/Documents/src/rv1126_rv1109_linux_v3.0.3_20240319_delgit/buildroot/output/rockchip_rv1126_rv1109/host/bin/arm-linux-gnueabihf-g++",
+    "--query-driver=/home/dthcm/Documents/src/rv1126_rv1109_linux_v3.0.3_20240319_delgit/buildroot/output/rockchip_rv1126_rv1109/host/bin/arm-linux-gnueabihf-gcc"
+  ],
+
+  "rust-analyzer.server.path": "/usr/bin/rust-analyzer",
+  "rust-analyzer.checkOnSave.target": null,
+  "java.jdt.ls.java.home": "/opt/openjdk-bin-17",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.8",
+      "path": "/opt/openjdk-bin-8"
+    },
+    {
+      "name": "JavaSE-17",
+      "path": "/opt/openjdk-bin-17",
+      "default": true
+    }
+  ],
+  "semanticTokens.enable": true,
+  "java.imports.gradle.wrapper.checksums": [
+    {
+      "sha256": "2c23278a62dc9f96ab11bee897d9f53e6479d6419135e4560ce822a6431df5e5",
+      "allowed": false
+    }
+  ]
+}
